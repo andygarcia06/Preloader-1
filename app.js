@@ -20,7 +20,9 @@ nextSlide();
 
 function showDiv() {
     var div = document.getElementById("social-block");
+    let leftSideTetx = document.querySelectorAll('.gradient-link')
     div.classList.add("show");
+    leftSideTetx.style.backgroundSize = '0% 0%'
   }
   
   
